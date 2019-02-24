@@ -1,0 +1,260 @@
+body {
+ background: #0029FF;
+ font-family: "GT-Zirkon-Regular"; src: url("http://jnswndlf.com/wp-content/uploads/2019/01/GT-Zirkon-Regular.woff") format("woff");
+ font-size: 40px;
+ font-weight: bold;
+ color: white;
+ text-align:left;
+ overflow: visible;
+ word-spacing: normal;
+}
+#chatLog {
+ margin-top: 10px;
+ margin-left: 30px;
+ margin-right: 20px;
+ overflow: visible;
+
+}
+#userBox {
+ margin-left: 40px;
+ position: relative;
+ margin-right: 30px;
+ overflow: visible;
+ color: #FF69B4;
+
+
+}
+
+.input-wrapper::after {
+ content: attr(data-text);
+ font-size: 1.5rem;
+ line-height: 0;
+ height: 0;
+ max-width: 40%;
+ font-family: "GT-Zirkon-Thin"; src: url("http://jnswndlf.com/wp-content/uploads/2019/01/GT-Zirkon-Thin.woff") format("woff");
+ border-bottom: 1px solid white;
+ position: absolute;
+ left: 0;
+ bottom: 0;
+ height: 1px;
+ overflow: visible;
+ user-select: none;
+ color: #FF69B4;
+}
+
+input {
+ color: #FF69B4;
+ border: none;
+ padding: 0;
+ border-radius: 0;
+ outline: none;
+ width: auto;
+ min-width: 40%;
+ font-size: 1.5rem;
+ line-height: 2em;
+ font-family: "GT-Zirkon-Thin"; src: url("http://jnswndlf.com/wp-content/uploads/2019/01/GT-Zirkon-Thin.woff") format("woff");
+ border-bottom: 3px solid white;
+ background-color: transparent;
+ overflow: visible;
+
+}
+
+
+#Projects {
+ text-decoration: underline;
+ color: #FF69B4;
+
+}
+
+#personal {
+ text-decoration: underline;
+ color: #00FFFF;
+
+}
+
+#printed {
+ text-decoration: underline;
+ color: #FF69B4;
+
+}
+
+#Posters {
+ text-decoration: underline;
+ color: #FF69B4;
+
+}
+
+#Zines {
+ text-decoration: underline;
+ color: #FF69B4;
+
+}
+
+#Drawings {
+ text-decoration: underline;
+ color: #FF69B4;
+
+}
+
+#Phone {
+ text-decoration: underline;
+ color: #00FFFF;
+
+}
+#Instagram {
+ text-decoration: underline;
+ color: #00FFFF;
+
+}
+
+#E-mail {
+ text-decoration: underline;
+ color: #00FFFF;
+
+}
+
+#Facebook {
+ text-decoration: underline;
+ color: #00FFFF;
+
+}
+
+
+
+#myImage1 {
+ margin-top: 10px;
+ margin-left: 50px;
+ pointer-events: none;
+ width: 60%;
+ display: none;
+ position: fixed;
+ z-index: 100;
+}
+
+#myImage2 {
+ margin-top: 10px;
+ margin-left: 50px;
+ pointer-events: none;
+ width: 60%;
+ display: none;
+ position: fixed;
+ z-index: 100;
+}
+
+#myImage3 {
+ margin-top: 10px;
+ margin-left: 50px;
+ pointer-events: none;
+ width: 60%;
+ display: none;
+ position: fixed;
+ z-index: 100;
+}
+
+#myImage4 {
+ margin-top: 10px;
+ margin-left: 50px;
+ pointer-events: none;
+ width: 60%;
+ display: none;
+ position: fixed;
+ z-index: 100;
+}
+
+
+#myImage5 {
+ margin-top: 10px;
+ margin-left: 50px;
+ pointer-events: none;
+ width: 60%;
+ display: none;
+ position: fixed;
+ z-index: 100;
+}
+
+
+#myImage6 {
+ margin-top: 10px;
+ margin-left: 50px;
+ pointer-events: none;
+ width: 60%;
+ display: none;
+ position: fixed;
+ z-index: 100;
+}
+
+#myImage7 {
+ margin-top: 10px;
+ margin-left: 50px;
+ pointer-events: none;
+ width: 60%;
+ display: none;
+ position: fixed;
+ z-index: 100;
+}
+
+#myImage8 {
+ margin-top: 10px;
+ margin-left: 50px;
+ pointer-events: none;
+ width: 60%;
+ display: none;
+ position: fixed;
+ z-index: 100;
+}
+
+#myImage9 {
+ margin-top: 10px;
+ margin-left: 50px;
+ pointer-events: none;
+ width: 60%;
+ display: none;
+ position: fixed;
+ z-index: 100;
+}
+
+#myImage10 {
+top: 5px; right: 5px;
+ pointer-events: none;
+ width: 15%;
+ display: flex;
+ z-index: 100;
+}
+
+
+.pulser {
+  width: 90vmin;
+  height: 90vmin;
+  border-radius: 50%;
+  mix-blend-mode: screen;
+  background: #d84578;
+  position: absolute;
+  transform-origin: 42vmin 48vmin;
+  animation: filtered 10000ms 0ms infinite alternate linear;
+  will-change: filter, transform;
+}
+main {
+  width: 90vmin;
+  height: 90vmin;
+  position: relative;
+}
+body {
+  background: #042739;
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow: visible;
+}
+* {
+  box-sizing: border-box;
+}
+
+@keyframes filtered {
+  0% {
+    filter: hue-rotate(0deg) blur(3vmin);
+  }
+  100% {
+    filter: hue-rotate(360deg) blur(20vmin);
+  }
+}
